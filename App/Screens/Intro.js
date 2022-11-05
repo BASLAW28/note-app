@@ -21,6 +21,8 @@ export function Intro({ navigation }) {
                 onChangeText={text => setpassword(text)}
                 style={{width:399,}}
             />
+              <Text>Forgot your password?</Text>
+               <Button>Sign in</Button>
         
 
         </View>
